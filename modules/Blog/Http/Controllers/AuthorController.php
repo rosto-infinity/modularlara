@@ -50,7 +50,7 @@ class AuthorController extends BackendController
     }
 
     /**
-     * Enregistre un nouvel auteur dans la base de données.
+     * -Enregistre un nouvel auteur dans la base de données.
      *
      * @param AuthorValidate $request Les données validées pour l'auteur.
      * @return RedirectResponse
