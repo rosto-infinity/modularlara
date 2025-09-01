@@ -87,7 +87,7 @@ class AuthorController extends BackendController
     }
 
     /**
-     * Met à jour les informations d'un auteur existant.
+     * -Met à jour les informations d'un auteur existant.
      *
      * @param AuthorValidate $request Les données validées.
      * @param int $id L'ID de l'auteur à mettre à jour.
