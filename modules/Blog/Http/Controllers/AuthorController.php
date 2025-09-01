@@ -40,7 +40,7 @@ class AuthorController extends BackendController
     }
 
     /**
-     * Affiche le formulaire pour créer un nouvel auteur.
+     * -Affiche le formulaire pour créer un nouvel auteur.
      *
      * @return Response
      */
