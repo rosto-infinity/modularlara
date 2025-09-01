@@ -72,7 +72,7 @@ class AuthorController extends BackendController
     }
 
     /**
-     * Affiche le formulaire pour modifier un auteur existant.
+     * -Affiche le formulaire pour modifier un auteur existant.
      *
      * @param int $id L'ID de l'auteur à modifier.
      * @return Response
