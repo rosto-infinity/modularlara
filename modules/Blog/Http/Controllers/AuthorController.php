@@ -118,7 +118,7 @@ class AuthorController extends BackendController
     }
 
     /**
-     * Supprime un auteur de la base de données.
+     * -Supprime un auteur de la base de données.
      *
      * @param int $id L'ID de l'auteur à supprimer.
      * @return RedirectResponse
