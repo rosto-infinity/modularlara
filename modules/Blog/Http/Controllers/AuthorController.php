@@ -99,7 +99,7 @@ class AuthorController extends BackendController
 
         $authorData = $request->validated(); // Valide les données
 
-        // Vérifie si un fichier d'image est présent
+        // -Vérifie si un fichier d'image est présent
         if ($request->hasFile('image')) {
             // Télécharge l'image et fusionne les données
             $authorData = array_merge($authorData, $this->uploadFile('image', 'blog', 'originalUUID', 'public'));
