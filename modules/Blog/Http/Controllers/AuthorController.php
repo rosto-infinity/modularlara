@@ -107,7 +107,7 @@ class AuthorController extends BackendController
             // Supprime l'image précédente si demandé
             $authorData['image'] = null;
         } else {
-            // Supprime la clé image si aucune image n'est fournie
+            // -Supprime la clé image si aucune image n'est fournie
             unset($authorData['image']);
         }
 
