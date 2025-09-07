@@ -79,7 +79,7 @@ class AuthorController extends BackendController
      */
     public function edit(int $id): Response
     {
-        $author = Author::find($id); // Récupère l'auteur par ID
+        $author = Author::find($id); // -Récupère l'auteur par ID
 
         return inertia('BlogAuthor/AuthorForm', [ // Retourne la vue du formulaire de modification
             'author' => $author,
