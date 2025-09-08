@@ -90,7 +90,7 @@ class AuthorController extends BackendController
      * -Met à jour les informations d'un auteur existant.
      *
      * @param AuthorValidate $request Les données validées.
-     * @param int $id L'ID de l'auteur à mettre à jour.
+     * @param int $id L'ID de -l'auteur à mettre à jour.
      * @return RedirectResponse
      */
     public function update(AuthorValidate $request, int $id): RedirectResponse
